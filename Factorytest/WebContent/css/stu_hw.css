@@ -1,0 +1,44 @@
+#container{
+	width:960px;
+	margin:0 auto;
+	border:1px solid #ccc;
+	position: relative;
+	margin-top: 70px;
+}
+#zy_show{
+	width:100%;
+	padding:20px;
+
+}
+.zy_container{
+	border-bottom:1px solid #ccc;
+	width:913px;
+	margin-bottom:10px;
+	padding-bottom: 10px;
+	font-size:13px; 
+}
+.zy form{
+	margin-top: 10px;
+}
+.zy form input{
+	display: inline-block;
+	margin-top:5px;
+	margin-right:5px;
+}
+.zy_container:last-child+p{
+	width:100px;
+}
+#submit{
+	display:block;
+	width:120px;
+	height:30px;
+	line-height:30px;
+	border-radius:2px;
+	text-align:center;
+	background:rgb(46,175,187);
+	font-size:12px;
+}
+#submit:link{color:#fff;}
+#submit:visited{color:#fff;}
+#submit:hover{color:#fff;}
+#submit:active{color:#fff;}

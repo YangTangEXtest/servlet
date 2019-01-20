@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>Factorytest</display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FrontController</servlet-name>
+    <servlet-class>com.control.FrontController</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>fabuzuoye</servlet-name>
+    <servlet-class>com.view.fabuzuoye</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>test</servlet-name>
+    <servlet-class>com.view.test</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MonogoDBconn</servlet-name>
+    <servlet-class>com.control.MonogoDBconn</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Firstforward</servlet-name>
+    <servlet-class>com.view.Firstforward</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Secondfoewo</servlet-name>
+    <servlet-class>com.view.Secondfoewo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>thirdforward</servlet-name>
+    <servlet-class>com.view.thirdforward</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>JsonTest</servlet-name>
+    <servlet-class>com.control.JsonTest</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SQLtoMongo</servlet-name>
+    <servlet-class>com.control.SQLtoMongo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MySqlGet</servlet-name>
+    <servlet-class>com.control.MySqlGet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MongoDBget</servlet-name>
+    <servlet-class>com.control.MongoDBget</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MongoDBdel</servlet-name>
+    <servlet-class>com.control.MongoDBdel</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MongoDBupdate</servlet-name>
+    <servlet-class>com.control.MongoDBupdate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetHomework</servlet-name>
+    <servlet-class>com.control.GetHomework</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>FrontController</servlet-name>
+    <url-pattern>/FrontController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>fabuzuoye</servlet-name>
+    <url-pattern>/fabuzuoye</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>test</servlet-name>
+    <url-pattern>/test</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MonogoDBconn</servlet-name>
+    <url-pattern>/MonogoDBconn</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Firstforward</servlet-name>
+    <url-pattern>/Firstforward</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Secondfoewo</servlet-name>
+    <url-pattern>/Secondfoewo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>thirdforward</servlet-name>
+    <url-pattern>/thirdforward</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JsonTest</servlet-name>
+    <url-pattern>/JsonTest</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SQLtoMongo</servlet-name>
+    <url-pattern>/SQLtoMongo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MySqlGet</servlet-name>
+    <url-pattern>/MySqlGet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MongoDBget</servlet-name>
+    <url-pattern>/MongoDBget</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MongoDBdel</servlet-name>
+    <url-pattern>/MongoDBdel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MongoDBupdate</servlet-name>
+    <url-pattern>/MongoDBupdate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetHomework</servlet-name>
+    <url-pattern>/GetHomework</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
