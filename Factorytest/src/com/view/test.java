@@ -33,7 +33,10 @@ public class test extends HttpServlet {
 		br.close();
 		acceptjson = sb.toString();
 		if(acceptjson!=""){
+			
 			JSONObject json = JSONObject.fromObject(acceptjson);
+			json.put("status","200");
+			json.put("reason","成功发布");
 			out.println(json);
 			request.getSession().setAttribute("jsonStr", acceptjson);
 		}	

@@ -3,7 +3,7 @@
 	position: relative;
 	width: 100%;
 	height: 150px;
-	background: rgba(102,153,153,1);
+	background: #ececec;
 	margin:0 auto;
 	clear: both;
 	top: 30px;
@@ -19,20 +19,20 @@
 }
 #footer ul{
 	position: absolute;
-	color: white;
+	color: #555;
 	top:57px;
 	width: 200px;
 }
 #footer ul li{
 	font-family: "Microsoft YaHei";
 	list-style: none;
-	color: #fff;
+	color: #555;
 	font-size: 12px;
 	margin-bottom: 8px;
 }
 #footer ul .menu_li{
 	font-size: 14px;
-	color:#fff;
+	color:#555;
 	margin-bottom: 11px;
 }
 .menu_ul_1{

@@ -18,7 +18,7 @@ a:active{
 	color: #000;
 }
 body{
-	background: #ececec;
+	background: #fff;
 }
 header{
 	width: 100%;
@@ -27,7 +27,7 @@ header{
 	left: 0;
 	border-bottom: 1px solid #ccc;
 	position: fixed;
-	background: rgba(102,153,153,1);
+	background: #ececec;
 	z-index: 99;
 }
 
@@ -46,7 +46,7 @@ header{
 	line-height: 50px;
 	font-size: 13px;
 	list-style: none;
-	color: #fff;
+	color: #555;
 }
 /*#menu ul li a:link{
 	color: #fff;

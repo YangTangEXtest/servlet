@@ -1,6 +1,6 @@
 #container{
-	width: 100%；
-	height：auto;
+	width: 100%;
+	height:auto;
 	clear: both;
 	margin-top:70px;
 }
@@ -14,7 +14,7 @@
 #zy_show{
 	width: 70%;
 	height: auto;
-	margin: 50px auto;
+	margin: 10px auto;
 }
 .choice_container{
 	width: 100%;
@@ -26,6 +26,15 @@
 }
 .zy_type{
 	color:rgb(33,57,57);
+	width: 70px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 5%;
+	color: #fff;
+	-moz-box-shadow: 2px 2px 4px #888888; /* 老的 Firefox */
+	box-shadow: 2px 2px 4px #888888;
+	background: rgb(75,142,180);
 }
 .choice_container input{
 	margin-left: 20px;
@@ -48,4 +57,9 @@
 	background: rgba(102,153,153,0.8);
 	color: #000;
 	cursor: pointer;
+}
+#btn{
+	display: block;
+	margin:0 auto;
+
 }
